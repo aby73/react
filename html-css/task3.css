@@ -1,0 +1,61 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 8px 8px;
+    text-decoration: underline;
+    background-color: rgb(157, 245, 216);
+    color: aliceblue;
+
+}
+
+#container{
+    
+    padding: 20px 10px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.class1{
+    width: 700px;
+    height: 100px;
+    padding-left: 2px;
+    background-color: lightblue;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.class2{
+    width: 700px;
+    height: 100px;
+    padding-left: 2px;
+    background-color: yellow;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.list{
+    margin-top: 5%;
+    margin-left: 25px;
+    background-color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.btn{
+    background-color: black;
+    color: red;
+}
+
+body{
+    background-image: url(images/p2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

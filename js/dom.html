@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom</title>
+</head>
+<body>
+    <h1 id="dom1">hello world</h1>
+    <input id="dom2" type="text" value="abyt">
+    <p id="para"></p>
+    <h2 id="head"></h2>
+    <input  id="ip" type="text" onchange="heading()">
+
+    <button onclick="display()">
+        click
+    </button>
+    <script>
+        var a= document.getElementById("dom1").innerHTML
+        console.log(a)
+        document.getElementById("dom1").innerHTML="welcome world"
+        var b=document.getElementById("dom2").value
+        console.log(b)
+
+        function display(){
+
+            document.getElementById("para").innerHTML="u have clicked the button"
+        }
+
+        function heading(){
+           var c= document.getElementById("ip").value
+           document.getElementById("head").innerHTML=c
+
+        }
+
+    </script>
+</body>
+</html>

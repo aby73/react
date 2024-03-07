@@ -1,0 +1,23 @@
+h1{
+font-size: medium;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: crimson;
+background-color: chocolate;
+
+}
+.box1{
+    width: 200px;
+    height: 100px;
+    border: 2px solid rebeccapurple;
+}
+
+#container{
+    border: 2px dashed blue;
+    padding: 20px 10px 10px 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-start;
+    
+}

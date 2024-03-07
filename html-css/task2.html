@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task2</title>
+</head>
+<body>
+    <form action="action.php" method="post" enctype="multipart/form-data">
+    <h1>Application Form</h1><br><br>
+    First Name: <input type="text" name="fname" placeholder="" required>
+    Last name: <input type="text" name="lname" placeholder="" required><br><br>
+    Date of Birth: <input type="date" name="dob" required>
+    Age: <input type="number" name="age" required><br><br>
+    Gender: <select name="Gender" id="">
+        <option value="male">male</option>
+        <option value="female">female</option>
+    </select>
+    Email Address: <input type="email" name="email" placeholder="enter email address" required><br><br>
+    
+    Positions Available: <input type="radio" name="pos" value="Junior Dev">Junior Developor
+     <input type="radio" name="pos" value="Mid-level dev">Mid-level Developor
+     <input type="radio" name="pos" value="Senior dev">Senior Developor <br><br>
+
+     Programming Lang: <input type="checkbox" name="Programming lang" value="java">java
+    <input type="checkbox" name="Programming lang" value="Javascript">javascript
+    <input type="checkbox" name="Programming lang" value="python">python <br><br>
+
+    <input type="file" name="file">
+
+    password: <input type="password" name="password" required>
+    Confirm Password: <input type="password" name="cpass" required><br><br>
+
+    <input type="submit" name="submit" value="submit">
+    <input type="reset" name="reset" value="reset">
+
+</form>
+</body>
+</html>
